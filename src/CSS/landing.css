@@ -1,0 +1,73 @@
+
+.landingImage { 
+    max-width: 100vw;
+    max-height: fit-content;
+    height: auto;
+    animation: fadeIn 2000ms;
+}
+
+
+.title { 
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: 'Cinzel', serif;
+    position: absolute;
+    right: 15%;
+    bottom: 40%;
+    line-height: 1.2;
+    animation: transFade 2000ms;
+
+}
+
+.icon { 
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    position: absolute;
+    right: 28%;
+    bottom: 70%;
+    animation: transFade 2000ms;
+}
+
+.smallTitle { 
+    font-family: cinzel;
+    font-weight: 500;
+    font-size: 1.4vw;
+    position: absolute;
+    right: 11.5em;
+    bottom: 35%;
+    animation: transFade 2000ms;
+}
+
+.wrapper { 
+    position: relative;
+    text-align: center;
+} 
+
+
+
+
+    @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+
+        
+        100% {
+          
+          opacity: 1;
+        }
+      }
+
+    @keyframes transFade {
+        0% {
+          transform: translateY(100px);
+          opacity: 0;
+
+        }
+
+        
+        100% {
+          transform: translateY(0px);
+          opacity: 1;
+        }
+      }
