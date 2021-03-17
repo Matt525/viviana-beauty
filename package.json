@@ -8,8 +8,10 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "animate.css": "^4.1.1",
+    "aos": "^3.0.0-beta.6",
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
     "react": "^17.0.1",
-    "react-animate-on-scroll": "^2.1.5",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.0.1"
@@ -37,5 +39,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/Matt525/viviana-beauty.git",
+  "author": "Matthew Staton\ngit config --global user.name Matthew <Malanstaton@gmail.com>",
+  "license": "MIT"
 }
