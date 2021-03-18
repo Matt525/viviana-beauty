@@ -19,7 +19,7 @@ export default function Landing() {
                 <br/>
                 BEAUTY CO.
                 </div>
-                <small data-aos-mirror="true" data-aos="fade-up" data-aos-delay="1000" className="smallTitle">ONE-STOP HEALTH AND BEAUTY SHOP</small>
+                <small data-aos-mirror="true" data-aos="fade-up" data-aos-delay="250" className="smallTitle">ONE-STOP HEALTH AND BEAUTY SHOP</small>
         </div>
     )
 }
