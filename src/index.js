@@ -5,8 +5,7 @@ import ReactDOM from 'react-dom'
 import ReactFullpage from '@fullpage/react-fullpage';
 import './CSS/index.css'
 import React from 'react';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
+import './CSS/globalStyles.css'
 
 class App extends React.Component { 
 
@@ -22,16 +21,19 @@ class App extends React.Component {
       //options
       scrollingSpeed={1800}
       scrollBar={true}
+      fadeEffect={true}
       render={() => {
       return (
-        
+        <>
+        <section className="section"><Landing id="landing" /></section>
+                
             <ReactFullpage.Wrapper>
               
-                <section className="section"><Landing id="landing" /></section>
-                
+         
                 <section className="section"><About className="about" /></section>
                 
             </ReactFullpage.Wrapper>
+            </>
         
         );
       }}

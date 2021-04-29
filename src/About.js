@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 export default function About(){
 
     useEffect(() => {
-        AOS.init({duration: 700});
+        AOS.init({duration: 700, fadingEffect: true});
     }, []);
 
     return (

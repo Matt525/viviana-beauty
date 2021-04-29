@@ -15,7 +15,6 @@
     right: 15%;
     bottom: 40%;
     line-height: 1.2;
-    /* animation: transFade 2000ms; */
 
 }
 
@@ -25,7 +24,7 @@
     position: absolute;
     right: 28%;
     bottom: 70%;
-    /* animation: transFade 2000ms; */
+    animation: transFade 2000ms;
 }
 
 .smallTitle { 
@@ -35,39 +34,11 @@
     position: absolute;
     right: 11.5em;
     bottom: 35%;
-    animation: transFade 2000ms;
 }
 
 .wrapper { 
     position: relative;
     text-align: center;
+    transition: all .7s ease-in-out;
 } 
 
-
-
-
-    /* @keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-
-        
-        100% {
-          
-          opacity: 1;
-        }
-      }
-
-    @keyframes transFade {
-        0% {
-          transform: translateY(100px);
-          opacity: 0;
-
-        }
-
-        
-        100% {
-          transform: translateY(0px);
-          opacity: 1;
-        }
-      } */
