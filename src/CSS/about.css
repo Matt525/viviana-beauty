@@ -1,5 +1,6 @@
 *{ 
     font-family: 'Cinzel', serif;
+    font-weight: 200!important;
 }
 
 .aboutParent { 
@@ -22,7 +23,7 @@
     display: flex;
     justify-content: flex-start;
     border-bottom: solid rgb(70, 55, 36);
-    padding-bottom: 3%;
+    padding-bottom: 3.5%;
 }
 
 .aboutInfo { 
@@ -32,6 +33,10 @@
     margin-top: 8%;
     font-size: 40px;
     font-weight: 300;
+}
+
+#learnMore { 
+    font-size: auto;
 }
     .bottomAboutDiv { 
     height: 50%;
