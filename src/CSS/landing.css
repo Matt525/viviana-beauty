@@ -3,7 +3,7 @@
     max-width: 100vw;
     max-height: fit-content;
     height: auto;
-    /* animation: fadeIn 2000ms; */
+    
 }
 
 
@@ -15,8 +15,7 @@
     right: 15%;
     bottom: 40%;
     line-height: 1.2;
-    /* animation: transFade 2000ms; */
-
+    
 }
 
 .icon { 
@@ -25,7 +24,7 @@
     position: absolute;
     right: 28%;
     bottom: 70%;
-    /* animation: transFade 2000ms; */
+    
 }
 
 .smallTitle { 
@@ -45,29 +44,3 @@
 
 
 
-
-    /* @keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-
-        
-        100% {
-          
-          opacity: 1;
-        }
-      }
-
-    @keyframes transFade {
-        0% {
-          transform: translateY(100px);
-          opacity: 0;
-
-        }
-
-        
-        100% {
-          transform: translateY(0px);
-          opacity: 1;
-        }
-      } */

@@ -10,6 +10,7 @@ export default function Landing() {
     useEffect(() => {
         AOS.init(); 
     }, [])
+    
     return (
         <div className="wrapper">
                 <img data-aos-mirror="true" data-aos="fade" alt="background" src={landingBeauty} className="landingImage" />

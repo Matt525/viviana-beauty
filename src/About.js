@@ -16,7 +16,7 @@ export default function About(){
                     <div data-aos="fade-up" data-aos-delay="250" className="topAboutDiv">
                             <h1 className="aboutText">ABOUT VIVIANA 
                                     <br/>
-                                    BEAUTY CO.
+                                    BEAUTYx CO.
                             </h1>
                             <h2 data-aos="fade-up" data-aos-delay="300" className="aboutInfo">We are your ultimate source of the best health and beauty products in the market. We are advocates of true beauty and only carry products that we believe in.</h2>
                     </div>

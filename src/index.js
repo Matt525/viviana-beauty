@@ -1,12 +1,11 @@
 
 import Landing from './Landing';
 import About from './About';
+import Products from './Products'; 
 import ReactDOM from 'react-dom'
 import ReactFullpage from '@fullpage/react-fullpage';
 import './CSS/index.css'
 import React from 'react';
-import AOS from 'aos'
-import 'aos/dist/aos.css'
 
 class App extends React.Component { 
 
@@ -30,6 +29,8 @@ class App extends React.Component {
                 <section className="section"><Landing id="landing" /></section>
                 
                 <section className="section"><About className="about" /></section>
+
+                <section className="section"><Products className="products" /></section>
                 
             </ReactFullpage.Wrapper>
         
