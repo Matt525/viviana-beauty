@@ -29,7 +29,6 @@ class App extends React.Component {
         <section className="section"><Landing id="landing" /></section>
                 
             <ReactFullpage.Wrapper>
-              
          
                 <section className="section"><About className="about" /></section>
 
