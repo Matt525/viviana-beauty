@@ -2,9 +2,11 @@ import React from 'react'
 import {useEffect, useState, useRef} from 'react';
 
 export default function Fader(props) {
-    
-    const [isVisible, setVisible] = useState(false);
 
+    // change variable with hooks
+    const [isVisible, setVisible] = useState(false);
+  
+    // keeps current value during entire lifecycle of component.
     const domRef = useRef();
   
   

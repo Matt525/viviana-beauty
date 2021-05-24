@@ -24,8 +24,6 @@ export default function About(){
                             
                             </h2>
                             
-                
-                            
                     </div>
                     <img data-aos="fade-up" data-aos-delay="1000" alt="about pic of chocolate" src={aboutPic} className="bottomAboutDiv" />
             </div>

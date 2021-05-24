@@ -30,6 +30,7 @@ class App extends React.Component {
         <section className="section"><Landing id="landing" /></section>
                 
             <ReactFullpage.Wrapper>
+         
                 <section className="section"><About className="about" /></section>
                 <section className="section"><Products className="products" /></section>
                 <section className="section"><Products className="about" /></section>
