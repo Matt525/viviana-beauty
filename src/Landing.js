@@ -12,15 +12,15 @@ export default function Landing() {
     }, [])
     
     return (
-        <div className="wrapper" data-aos-mirror="true" data-aos="fade" data-aos-delay="1000">
+        <div className="wrapper" data-aos-mirror="true" data-aos="fade" data-aos-delay="0">
                 <img alt="background" src={landingBeauty} className="landingImage" />
                 
                 <br/>
-                <div data-aos-mirror="true" data-aos="fade-up" data-aos-delay="1200" className="title">VIVIANA
+                <div data-aos-mirror="true" data-aos="fade-up" data-aos-delay="400" className="title">VIVIANA
                 <br/>
                 BEAUTY CO.
                 </div>
-                <small data-aos-mirror="true" data-aos="fade-up" data-aos-delay="1400" className="smallTitle">ONE-STOP HEALTH AND BEAUTY SHOP</small>
+                <small data-aos-mirror="true" data-aos="fade-up" data-aos-delay="600" className="smallTitle">ONE-STOP HEALTH AND BEAUTY SHOP</small>
         </div>
     )
 }

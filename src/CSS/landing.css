@@ -15,11 +15,6 @@
     right: 15%;
     bottom: 40%;
     line-height: 1.2;
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 2d9267a5eb9f7543c97ce64212215c2e98c81103
 }
 
 .icon { 
@@ -28,11 +23,7 @@
     position: absolute;
     right: 28%;
     bottom: 70%;
-<<<<<<< HEAD
-    
-=======
     animation: transFade 2000ms;
->>>>>>> 2d9267a5eb9f7543c97ce64212215c2e98c81103
 }
 
 .smallTitle { 
@@ -50,8 +41,3 @@
     transition: all .7s ease-in-out;
 } 
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 2d9267a5eb9f7543c97ce64212215c2e98c81103
