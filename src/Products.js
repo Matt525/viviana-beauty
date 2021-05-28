@@ -12,30 +12,33 @@ export default function Products() {
             
     
            <div className="left" data-aos="fade-up" data-aos-delay="1050">
-               <span>
-                    <ul>
+               <span id="large-header">
+                    <ul style={{textDecoration: 'none'}}>
                             <li>
                                 <h1 className="productHeader">Product<br />Categories</h1>
                             </li>
                     
                             <li>
-                                <h3>To make things easier, we've gathered our favorite products from our favorite brands. </h3>
+                                <h2>To make things easier, we've gathered our favorite products from our favorite brands. </h2>
                             </li>
                     </ul>
                 </span>
            </div>
            <div className="right">
-               
-               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1100">
-                    <img className="imgs" src={img1} />
+               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1100" style={{flexDirection: 'column'}}>
+                    <img onClick={()=>{window.location.href="store"}} className="imgs" src={img1} />
+                    <h1>Beauty Products</h1>                    
                </div>
 
-               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1300">
+               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1300" style={{flexDirection: 'column'}}>
                     <img className="imgs" src={img2} />
+                    <h1>Wellness Products</h1>
+
                </div>
 
-               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1500">
+               <div className="imgDiv" data-aos="fade-up" data-aos-delay="1500" style={{flexDirection: 'column'}}>
                     <img className="imgs"src={img3} />
+                    <h1>Health Products</h1>
                </div>
            </div>
 
